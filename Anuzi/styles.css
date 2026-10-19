@@ -166,8 +166,8 @@ body {
 }
 
 #typing{
-    font-size:2rem;
-    font-weight:700;
+    font-size:1.3rem;
+    font-weight:500;
     color:var(--primary);
     display:inline-block;
     border-right:4px solid var(--primary);
