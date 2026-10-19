@@ -167,7 +167,7 @@ body {
 
 #typing {
     font-size: clamp(0.85rem, 4vw, 1.3rem);
-    font-weight: 700;
+    font-weight: 550;
     color: var(--primary);
     display: inline-block;
 
