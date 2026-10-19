@@ -382,11 +382,29 @@
     </a>
 
     <!-- ==================== FOOTER ==================== -->
-    <footer>
+    <footer class="site-footer">
+    <div class="footer-content">
+        <h2>Anuzi Eye Clinic</h2>
+
         <p>
-            &copy; 2026 Anuzi Eye Clinic. All Rights Reserved.
+            Supporting clearer vision through eye care and patient guidance.
         </p>
-    </footer>
+
+        <a href="#services">Our Services</a>
+        <a href="#location">Find Us</a>
+        <a href="#contact">Contact Us</a>
+    </div>
+
+    <p class="copyright">
+        &copy; <span id="current-year"></span>
+        Anuzi Eye Clinic. All rights reserved.
+    </p>
+</footer>
+
+<script>
+    document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+</script>
 
 
     <!-- ==================== BACK TO TOP ==================== -->
