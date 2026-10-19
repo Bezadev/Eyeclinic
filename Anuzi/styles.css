@@ -411,12 +411,12 @@ section h2{
 }
 
 .doctor img{
-    width:180px;
-    height:180px;
+    width:200px;
+    height:200px;
     border-radius:50%;
     object-fit:cover;
     object-position:center 30%
-    border:6px solid var(--primary);
+    border:3px solid var(--primary);
     margin-bottom:20px;
 }
 
