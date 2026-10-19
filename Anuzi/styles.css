@@ -415,6 +415,7 @@ section h2{
     height:180px;
     border-radius:50%;
     object-fit:cover;
+    object-position:center 30%
     border:6px solid var(--primary);
     margin-bottom:20px;
 }
