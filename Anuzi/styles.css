@@ -218,7 +218,7 @@ body::before {
 #typing {
     display: inline-block;
 
-    font-size: clamp(1rem, 4.5vw, 4.25rem);
+    font-size: clamp(1.5rem, 5vw, 3rem);
     font-weight: 550;
     line-height: 1.08;
     letter-spacing: 0;
@@ -1049,7 +1049,7 @@ footer {
     /* Typing text on mobile */
 
     #typing {
-        font-size: clamp(.78rem, 3.6vw, 1.3rem);
+        font-size: clamp(1.7rem, 3.6vw, 1.rrem);
         border-right-width: 2px;
     }
 
