@@ -165,17 +165,23 @@ body {
     min-width:0;
 }
 
-#typing{
-    font-size:1.3rem;
-    font-weight:500;
-    color:var(--primary);
-    display:inline-block;
-    border-right:4px solid var(--primary);
-    white-space:normal;
-    overflow:visible;
-    overflow-wrap:break-word;
-    min-height:30px;
-    animation:blink .8s infinite;
+#typing {
+    font-size: clamp(0.85rem, 4vw, 1.3rem);
+    font-weight: 700;
+    color: var(--primary);
+    display: inline-block;
+
+    /* Keep the entire sentence on ONE line */
+    white-space: nowrap;
+
+    /* Prevent the text from creating another line */
+    overflow: hidden;
+    overflow-wrap: normal;
+
+    min-height: 30px;
+
+    border-right: 4px solid var(--primary);
+    animation: blink .8s infinite;
 }
 
 @keyframes blink{
